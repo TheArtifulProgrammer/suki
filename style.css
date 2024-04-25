@@ -31,10 +31,10 @@ body {
   background-color: #eee;
   border-radius: 16px 16px 0 0;
   overflow: hidden;
-  border: 2px #2C2C2C solid;
+  border: 2px #2c2c2c solid;
 }
 .chat-box header {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   color: #fff;
   display: flex;
   padding: 0 16px;
@@ -57,7 +57,7 @@ body {
   padding: 12px;
 }
 .chat-box section div {
-  color:#fff;
+  color: #fff;
   font-size: 13px;
   margin: 12px 0;
 }
@@ -72,7 +72,7 @@ body {
   text-align: left;
 }
 .chat-box section div.not-me span {
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   border-radius: 4px 16px 16px 4px;
 }
 .chat-box section div.not-me span:first-of-type {
@@ -85,7 +85,7 @@ body {
   text-align: right;
 }
 .chat-box section div.me span {
-  background-color: #005C4B;
+  background-color: #005c4b;
   border-radius: 16px 4px 4px 16px;
 }
 .chat-box section div.me span:first-of-type {
@@ -102,7 +102,70 @@ body {
   width: 100%;
   font-size: 1em;
 }
-.dev-label{
+.dev-label {
   margin-top: 5px;
   font-size: 9px;
+}
+div:not(form) {
+  margin: 0px !important;
+}
+.chat-box .form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box .form-input label {
+  color: #2c2c2c;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.chat-box .form-input input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.chat-box .form-input select {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.chat-box .form-btn {
+  font-family: "Karla", sans-serif;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  background-color: #2c2c2c;
+  border-radius: 5px;
+  padding: 0 12px;
+  height: 40px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.chat-box #switch-form-text {
+  text-align: center;
+  font-size: 1em;
+}
+
+.bg-secondary-soft {
+  background-color: rgba(100, 116, 139, 0.1);
+  color: #64748b;
+}
+.badge {
+  border-radius: 10px;
+  color: #005c4b;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  padding: 0 12px;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 10px;
+}
+/*  */
+.pill-container span {
+  margin: 3px !important;
 }
